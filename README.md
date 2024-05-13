@@ -1,9 +1,6 @@
-A<div align='center'>
+<div align='center'>
  
-# [Counterfactual Interpolation Augmentation (CIA): A Unified Approach to Enhance Fairness and Explainability of DNN]()
-
-[![Paper]](https://qiangyao1988.github.io/assets/publications/2022_CIA/paper_CIA.pdf)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# [Counterfactual Interpolation Augmentation (CIA): A Unified Approach to Enhance Fairness and Explainability of DNN](https://qiangyao1988.github.io/assets/publications/2022_CIA/paper_CIA.pdf)
 
 <table align="center">
   <tr>
@@ -16,7 +13,7 @@ A<div align='center'>
 </table>
 </div>
 
-Welcome to the official repository for the paper, [Counterfactual Interpolation Augmentation (CIA): A Unified Approach to Enhance Fairness and Explainability of DNN](). This repository contains the code for the experiments used in the paper.
+Welcome to the official repository for the paper, [Counterfactual Interpolation Augmentation (CIA): A Unified Approach to Enhance Fairness and Explainability of DNN](https://qiangyao1988.github.io/assets/publications/2022_CIA/paper_CIA.pdf). This repository contains the code for the experiments used in the paper.
 
 ## Abstract
 Bias in the training data can jeopardize fairness and explainability of deep neural network prediction on test data. We propose a novel bias-tailored data augmentation approach, Counterfactual Interpolation Augmentation (CIA), attempting to debias the training data by d-separating the spurious correlation between the target variable and the sensitive attribute. CIA generates counterfactual interpolations along a path simulating the distribution transitions between the input and its counterfactual
@@ -28,10 +25,10 @@ The code is structured as follows:
 -- Run vanilla classifier
     -- BiasedMNIST Classification.py
     -- CelebA Heavymakeup Classifer.py
--- Run CVAE to generate couterfactuak examples
+-- Run CVAE to generate counterfactual examples
     -- BiasedMNIST CAVE.py
     -- CelebA Pretrain CVAE.py
--- Run classifer with augmentation datasets
+-- Run classifer with augmented datasets
     -- CelebA Heavymakeup Aug Training.py
 -- Run CGI and baseline attribution methods
     -- BiasedMNIST Attribution.py
