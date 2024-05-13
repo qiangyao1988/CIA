@@ -35,7 +35,7 @@ The code is structured as follows:
     -- CelebA Heavymakeup Attribution.py
 ```
 
-## 4) Cite This Work
+## Cite This Work
 ```
 @inproceedings{qiang2022counterfactual,
   title={Counterfactual Interpolation Augmentation (CIA): A Unified Approach to Enhance Fairness and Explainability of DNN.},
