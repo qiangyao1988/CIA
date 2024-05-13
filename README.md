@@ -22,15 +22,15 @@ example. CIA as a pre-processing approach enjoys two advantages: First, it coupl
 ## Code structure
 The code is structured as follows:
 ```
--- Run vanilla classifier
+-- Train vanilla classifier
     -- BiasedMNIST Classification.py
     -- CelebA Heavymakeup Classifer.py
--- Run CVAE to generate counterfactual examples
+-- Apply CVAE to generate counterfactual examples
     -- BiasedMNIST CAVE.py
     -- CelebA Pretrain CVAE.py
--- Run classifer with augmented datasets
+-- Train debiased classifer with augmented datasets
     -- CelebA Heavymakeup Aug Training.py
--- Run CGI and baseline attribution methods
+-- Apply CGI and baseline attribution methods
     -- BiasedMNIST Attribution.py
     -- CelebA Heavymakeup Attribution.py
 ```
